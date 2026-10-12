@@ -1,0 +1,123 @@
+Oct 11 00:17:00 web01 CRON[2017]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 11 03:17:00 web01 CRON[2040]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 11 05:44:01 web01 sshd[2079]: Invalid user admin from 203.0.113.99 port 30015
+Oct 11 05:44:01 web01 sshd[2103]: Failed password for invalid user admin from 203.0.113.99 port 39913 ssh2
+Oct 11 06:17:00 web01 CRON[2134]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 11 08:20:09 web01 sshd[2142]: Accepted publickey for alice from 192.0.2.10 port 55875 ssh2: RSA SHA256:3vYxk1fWm0Qd8sJxq0f1QpZbYk7Yb3v9sY0R2y1lK4E
+Oct 11 08:20:09 web01 sshd[2150]: pam_unix(sshd:session): session opened for user alice(uid=1000) by (uid=0)
+Oct 11 08:46:09 web01 sshd[2182]: Disconnected from user alice 192.0.2.10 port 34747
+Oct 11 09:17:00 web01 CRON[2212]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 11 09:52:34 web01 sshd[2243]: Accepted publickey for bob from 192.0.2.11 port 36168 ssh2: RSA SHA256:3vYxk1fWm0Qd8sJxq0f1QpZbYk7Yb3v9sY0R2y1lK4E
+Oct 11 09:52:34 web01 sshd[2274]: pam_unix(sshd:session): session opened for user bob(uid=1000) by (uid=0)
+Oct 11 10:05:00 web01 sudo[2294]: alice : TTY=pts/0 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/apt update
+Oct 11 10:58:34 web01 sshd[2300]: Disconnected from user bob 192.0.2.11 port 33801
+Oct 11 11:02:10 web01 sshd[2310]: Failed password for bob from 192.0.2.11 port 36753 ssh2
+Oct 11 11:02:19 web01 sshd[2317]: Accepted password for bob from 192.0.2.11 port 42312 ssh2
+Oct 11 11:02:19 web01 sshd[2339]: pam_unix(sshd:session): session opened for user bob(uid=1000) by (uid=0)
+Oct 11 12:17:00 web01 CRON[2356]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 11 12:44:01 web01 sshd[2387]: Invalid user admin from 203.0.113.99 port 36649
+Oct 11 12:44:01 web01 sshd[2398]: Failed password for invalid user admin from 203.0.113.99 port 53829 ssh2
+Oct 11 13:58:32 web01 sshd[2432]: Accepted publickey for alice from 192.0.2.10 port 44070 ssh2: RSA SHA256:3vYxk1fWm0Qd8sJxq0f1QpZbYk7Yb3v9sY0R2y1lK4E
+Oct 11 13:58:32 web01 sshd[2434]: pam_unix(sshd:session): session opened for user alice(uid=1000) by (uid=0)
+Oct 11 14:22:32 web01 sshd[2448]: Disconnected from user alice 192.0.2.10 port 35632
+Oct 11 14:31:02 web01 sshd[2482]: Invalid user admin from 203.0.113.45 port 54405
+Oct 11 14:31:02 web01 sshd[2506]: Failed password for invalid user admin from 203.0.113.45 port 36385 ssh2
+Oct 11 14:31:08 web01 sshd[2516]: Invalid user test from 203.0.113.45 port 34114
+Oct 11 14:31:08 web01 sshd[2551]: Failed password for invalid user test from 203.0.113.45 port 33906 ssh2
+Oct 11 14:31:14 web01 sshd[2553]: Invalid user oracle from 203.0.113.45 port 43497
+Oct 11 14:31:14 web01 sshd[2587]: Failed password for invalid user oracle from 203.0.113.45 port 62533 ssh2
+Oct 11 14:31:20 web01 sshd[2607]: Invalid user postgres from 203.0.113.45 port 58022
+Oct 11 14:31:20 web01 sshd[2613]: Failed password for invalid user postgres from 203.0.113.45 port 50587 ssh2
+Oct 11 14:31:25 web01 sshd[2630]: Invalid user ubuntu from 203.0.113.45 port 59699
+Oct 11 14:31:25 web01 sshd[2664]: Failed password for invalid user ubuntu from 203.0.113.45 port 53696 ssh2
+Oct 11 14:31:29 web01 sshd[2688]: Invalid user guest from 203.0.113.45 port 46280
+Oct 11 14:31:29 web01 sshd[2699]: Failed password for invalid user guest from 203.0.113.45 port 41781 ssh2
+Oct 11 14:31:32 web01 sshd[2722]: Invalid user user from 203.0.113.45 port 35364
+Oct 11 14:31:32 web01 sshd[2737]: Failed password for invalid user user from 203.0.113.45 port 49677 ssh2
+Oct 11 14:31:38 web01 sshd[2772]: Invalid user ftp from 203.0.113.45 port 62447
+Oct 11 14:31:38 web01 sshd[2807]: Failed password for invalid user ftp from 203.0.113.45 port 52510 ssh2
+Oct 11 14:31:43 web01 sshd[2840]: Invalid user pi from 203.0.113.45 port 48870
+Oct 11 14:31:43 web01 sshd[2862]: Failed password for invalid user pi from 203.0.113.45 port 34797 ssh2
+Oct 11 14:31:45 web01 sshd[2877]: Invalid user git from 203.0.113.45 port 63550
+Oct 11 14:31:45 web01 sshd[2917]: Failed password for invalid user git from 203.0.113.45 port 57402 ssh2
+Oct 11 14:31:48 web01 sshd[2930]: Failed password for root from 203.0.113.45 port 52416 ssh2
+Oct 11 14:31:51 web01 sshd[2946]: Failed password for root from 203.0.113.45 port 62044 ssh2
+Oct 11 14:31:56 web01 sshd[2972]: Failed password for root from 203.0.113.45 port 32569 ssh2
+Oct 11 14:31:58 web01 sshd[2987]: Invalid user support from 203.0.113.45 port 50561
+Oct 11 14:31:58 web01 sshd[3000]: Failed password for invalid user support from 203.0.113.45 port 52290 ssh2
+Oct 11 14:32:02 web01 sshd[3034]: Invalid user jenkins from 203.0.113.45 port 62550
+Oct 11 14:32:02 web01 sshd[3066]: Failed password for invalid user jenkins from 203.0.113.45 port 59897 ssh2
+Oct 11 14:32:04 web01 sshd[3089]: Invalid user hadoop from 203.0.113.45 port 36133
+Oct 11 14:32:04 web01 sshd[3091]: Failed password for invalid user hadoop from 203.0.113.45 port 47690 ssh2
+Oct 11 14:32:09 web01 sshd[3093]: Invalid user minecraft from 203.0.113.45 port 34259
+Oct 11 14:32:09 web01 sshd[3111]: Failed password for invalid user minecraft from 203.0.113.45 port 33976 ssh2
+Oct 11 14:32:13 web01 sshd[3142]: Failed password for deploy from 203.0.113.45 port 59205 ssh2
+Oct 11 14:32:17 web01 sshd[3159]: Failed password for www from 203.0.113.45 port 55283 ssh2
+Oct 11 14:32:21 web01 sshd[3172]: Failed password for mysql from 203.0.113.45 port 31478 ssh2
+Oct 11 14:32:26 web01 sshd[3211]: Invalid user admin from 203.0.113.45 port 53295
+Oct 11 14:32:26 web01 sshd[3234]: Failed password for invalid user admin from 203.0.113.45 port 41013 ssh2
+Oct 11 14:32:32 web01 sshd[3263]: Invalid user test from 203.0.113.45 port 37673
+Oct 11 14:32:32 web01 sshd[3286]: Failed password for invalid user test from 203.0.113.45 port 62354 ssh2
+Oct 11 14:32:34 web01 sshd[3310]: Invalid user oracle from 203.0.113.45 port 44300
+Oct 11 14:32:34 web01 sshd[3316]: Failed password for invalid user oracle from 203.0.113.45 port 48837 ssh2
+Oct 11 14:32:37 web01 sshd[3331]: Invalid user postgres from 203.0.113.45 port 46227
+Oct 11 14:32:37 web01 sshd[3338]: Failed password for invalid user postgres from 203.0.113.45 port 56076 ssh2
+Oct 11 14:32:42 web01 sshd[3353]: Invalid user ubuntu from 203.0.113.45 port 62539
+Oct 11 14:32:42 web01 sshd[3384]: Failed password for invalid user ubuntu from 203.0.113.45 port 35280 ssh2
+Oct 11 14:32:45 web01 sshd[3397]: Invalid user guest from 203.0.113.45 port 59437
+Oct 11 14:32:45 web01 sshd[3419]: Failed password for invalid user guest from 203.0.113.45 port 56322 ssh2
+Oct 11 14:32:51 web01 sshd[3433]: Invalid user user from 203.0.113.45 port 48208
+Oct 11 14:32:51 web01 sshd[3464]: Failed password for invalid user user from 203.0.113.45 port 38973 ssh2
+Oct 11 14:32:56 web01 sshd[3504]: Invalid user ftp from 203.0.113.45 port 48246
+Oct 11 14:32:56 web01 sshd[3544]: Failed password for invalid user ftp from 203.0.113.45 port 57216 ssh2
+Oct 11 14:33:00 web01 sshd[3545]: Invalid user pi from 203.0.113.45 port 54932
+Oct 11 14:33:00 web01 sshd[3576]: Failed password for invalid user pi from 203.0.113.45 port 45122 ssh2
+Oct 11 14:33:03 web01 sshd[3599]: Invalid user git from 203.0.113.45 port 35438
+Oct 11 14:33:03 web01 sshd[3605]: Failed password for invalid user git from 203.0.113.45 port 41548 ssh2
+Oct 11 14:33:06 web01 sshd[3613]: Failed password for root from 203.0.113.45 port 45201 ssh2
+Oct 11 14:33:09 web01 sshd[3638]: Failed password for root from 203.0.113.45 port 30790 ssh2
+Oct 11 14:33:14 web01 sshd[3651]: Failed password for root from 203.0.113.45 port 41950 ssh2
+Oct 11 14:33:18 web01 sshd[3682]: Invalid user support from 203.0.113.45 port 48476
+Oct 11 14:33:18 web01 sshd[3694]: Failed password for invalid user support from 203.0.113.45 port 30268 ssh2
+Oct 11 14:33:21 web01 sshd[3722]: Invalid user jenkins from 203.0.113.45 port 57456
+Oct 11 14:33:21 web01 sshd[3744]: Failed password for invalid user jenkins from 203.0.113.45 port 54199 ssh2
+Oct 11 14:33:27 web01 sshd[3750]: Invalid user hadoop from 203.0.113.45 port 50880
+Oct 11 14:33:27 web01 sshd[3776]: Failed password for invalid user hadoop from 203.0.113.45 port 38224 ssh2
+Oct 11 15:17:00 web01 CRON[3806]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 11 16:27:26 web01 sshd[3832]: Accepted publickey for bob from 192.0.2.11 port 34578 ssh2: RSA SHA256:3vYxk1fWm0Qd8sJxq0f1QpZbYk7Yb3v9sY0R2y1lK4E
+Oct 11 16:27:26 web01 sshd[3838]: pam_unix(sshd:session): session opened for user bob(uid=1000) by (uid=0)
+Oct 11 17:17:26 web01 sshd[3849]: Disconnected from user bob 192.0.2.11 port 35944
+Oct 11 18:17:00 web01 CRON[3860]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 11 19:44:01 web01 sshd[3869]: Invalid user admin from 203.0.113.99 port 31671
+Oct 11 19:44:01 web01 sshd[3871]: Failed password for invalid user admin from 203.0.113.99 port 34608 ssh2
+Oct 11 21:17:00 web01 CRON[3881]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Oct 11 23:15:40 web01 sshd[3919]: Accepted publickey for carol from 192.0.2.20 port 43628 ssh2: RSA SHA256:3vYxk1fWm0Qd8sJxq0f1QpZbYk7Yb3v9sY0R2y1lK4E
+Oct 11 23:15:40 web01 sshd[3949]: pam_unix(sshd:session): session opened for user carol(uid=1000) by (uid=0)
+Oct 12 02:41:13 web01 sshd[3959]: Failed password for root from 198.51.100.23 port 33538 ssh2
+Oct 12 02:41:35 web01 sshd[3999]: Failed password for root from 198.51.100.23 port 55714 ssh2
+Oct 12 02:41:55 web01 sshd[4038]: Failed password for root from 198.51.100.23 port 56147 ssh2
+Oct 12 02:42:15 web01 sshd[4069]: Failed password for deploy from 198.51.100.23 port 36785 ssh2
+Oct 12 02:42:38 web01 sshd[4092]: Failed password for deploy from 198.51.100.23 port 56243 ssh2
+Oct 12 02:42:47 web01 sshd[4102]: Failed password for deploy from 198.51.100.23 port 42491 ssh2
+Oct 12 02:42:57 web01 sshd[4138]: Failed password for deploy from 198.51.100.23 port 43681 ssh2
+Oct 12 02:43:19 web01 sshd[4174]: Failed password for deploy from 198.51.100.23 port 40636 ssh2
+Oct 12 02:43:30 web01 sshd[4183]: Failed password for deploy from 198.51.100.23 port 52285 ssh2
+Oct 12 02:43:39 web01 sshd[4185]: Accepted password for deploy from 198.51.100.23 port 36709 ssh2
+Oct 12 02:43:39 web01 sshd[4186]: pam_unix(sshd:session): session opened for user deploy(uid=1000) by (uid=0)
+Oct 12 02:46:39 web01 sshd[4193]: Received disconnect from 198.51.100.23 port 50122:11: disconnected by user
+Oct 12 04:10:05 web01 sshd[4227]: Accepted publickey for root from 192.0.2.10 port 54656 ssh2: RSA SHA256:3vYxk1fWm0Qd8sJxq0f1QpZbYk7Yb3v9sY0R2y1lK4E
+Oct 12 04:10:05 web01 sshd[4236]: pam_unix(sshd:session): session opened for user root(uid=1000) by (uid=0)
+Oct 12 08:35:27 web01 sshd[4264]: Accepted publickey for alice from 192.0.2.10 port 33873 ssh2: RSA SHA256:3vYxk1fWm0Qd8sJxq0f1QpZbYk7Yb3v9sY0R2y1lK4E
+Oct 12 08:35:27 web01 sshd[4277]: pam_unix(sshd:session): session opened for user alice(uid=1000) by (uid=0)
+Oct 12 09:10:27 web01 sshd[4291]: Disconnected from user alice 192.0.2.10 port 44630
+Oct 12 09:40:40 web01 sshd[4293]: Accepted publickey for bob from 192.0.2.11 port 34054 ssh2: RSA SHA256:3vYxk1fWm0Qd8sJxq0f1QpZbYk7Yb3v9sY0R2y1lK4E
+Oct 12 09:40:40 web01 sshd[4310]: pam_unix(sshd:session): session opened for user bob(uid=1000) by (uid=0)
+Oct 12 10:00:01 web01 sshd[4324]: Accepted publickey for alice from 2001:db8::42 port 39735 ssh2: RSA SHA256:3vYxk1fWm0Qd8sJxq0f1QpZbYk7Yb3v9sY0R2y1lK4E
+Oct 12 10:00:01 web01 sshd[4343]: pam_unix(sshd:session): session opened for user alice(uid=1000) by (uid=0)
+Oct 12 10:50:40 web01 sshd[4376]: Disconnected from user bob 192.0.2.11 port 33249
+Oct 12 13:14:02 web01 sshd[4392]: Accepted publickey for alice from 192.0.2.10 port 38727 ssh2: RSA SHA256:3vYxk1fWm0Qd8sJxq0f1QpZbYk7Yb3v9sY0R2y1lK4E
+Oct 12 13:14:02 web01 sshd[4430]: pam_unix(sshd:session): session opened for user alice(uid=1000) by (uid=0)
+Oct 12 14:11:02 web01 sshd[4451]: Disconnected from user alice 192.0.2.10 port 57468
+Oct 12 16:09:34 web01 sshd[4468]: Accepted publickey for bob from 192.0.2.11 port 37719 ssh2: RSA SHA256:3vYxk1fWm0Qd8sJxq0f1QpZbYk7Yb3v9sY0R2y1lK4E
+Oct 12 16:09:34 web01 sshd[4503]: pam_unix(sshd:session): session opened for user bob(uid=1000) by (uid=0)
+Oct 12 17:08:34 web01 sshd[4530]: Disconnected from user bob 192.0.2.11 port 41844
